@@ -1,0 +1,1324 @@
+{
+    "characters": [
+        {
+            "name": "Inici",
+            "children": [
+                {
+                    "name": "Tancar sessió"
+                }
+            ]
+        },
+        {
+            "name": "Entitats comunes",
+            "children": [
+                {
+                    "name": "Persona física",
+                    "children": [
+                        {
+                            "name": "Alta de PF"
+                        },
+                        {
+                            "name": "Alta restrictiva de PF"
+                        },
+                        {
+                            "name": "Modificació de PF"
+                        },
+                        {
+                            "name": "Modificació restrictiva de PF"
+                        },
+                        {
+                            "name": "Consulta de PF"
+                        },
+                        {
+                            "name": "Consulta de Duplicats de PF"
+                        },
+                        {
+                            "name": "Consulta de PF per Nom i Cognoms"
+                        },
+                        {
+                            "name": "Desactivació de PF"
+                        },
+                        {
+                            "name": "Canvi d'identificador de PF"
+                        },
+                        {
+                            "name": "Agrupació de PF"
+                        },
+                        {
+                            "name": "Consulta d'Estat d'Agrupació de PF"
+                        },
+                        {
+                            "name": "Consultar Historials Agrupació de PF"
+                        },
+                        {
+                            "name": "Anul·lar Agrupació de PF"
+                        },
+                        {
+                            "name": "Modificar Agrupació de PF No Anul·lable"
+                        },
+                        {
+                            "name": "Consultar Identificador Actual de PF des de Data"
+                        },
+                        {
+                            "name": "Consultar Tauler d'Identificadors Desestimats"
+                        },
+                        {
+                            "name": "Eliminació de PF"
+                        },
+                        {
+                            "name": "Historial de Canvis d'Id"
+                        },
+                        {
+                            "name": "PF relacionades amb un ID"
+                        },
+                        {
+                            "name": "Informes",
+                            "children": [
+                                {
+                                    "name": "Per identificador"
+                                },
+                                {
+                                    "name": "Per nom i cognoms"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consulta de PF protegida"
+                        },
+                        {
+                            "name": "Consulta d'Historials protegits"
+                        },
+                        {
+                            "name": "Consulta de PF de col·lectius protegits"
+                        },
+                        {
+                            "name": "Pla Garantia Juvenil",
+                            "children": [
+                                {
+                                    "name": "Discrepàncies Garantia Juvenil"
+                                },
+                                {
+                                    "name": "Sincronització Garantia Juvenil"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consulta indicadors històrics de PFS i DEM en data"
+                        },
+                        {
+                            "name": "Consulta IPF antic en data"
+                        }
+                    ]
+                },
+                {
+                    "name": "Empresari",
+                    "children": [
+                        {
+                            "name": "Alta de EP   "
+                        },
+                        {
+                            "name": "Alta restrictiva de EP"
+                        },
+                        {
+                            "name": "Modificació de EP"
+                        },
+                        {
+                            "name": "Consulta de EP"
+                        },
+                        {
+                            "name": "Desactivació de EP"
+                        },
+                        {
+                            "name": "Eliminació de EP"
+                        },
+                        {
+                            "name": "Canvi d'identificador de EP"
+                        },
+                        {
+                            "name": "Informes",
+                            "children": [
+                                {
+                                    "name": "Per identificador"
+                                },
+                                {
+                                    "name": "Empreses per Empresari"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Alta de EP EURES"
+                        },
+                        {
+                            "name": "Consulta identificador actual de EP des de data"
+                        },
+                        {
+                            "name": "Consulta Tauler canvis identificador d’Empresari"
+                        }
+                    ]
+                },
+                {
+                    "name": "Empresa",
+                    "children": [
+                        {
+                            "name": "Modificació d'EL"
+                        },
+                        {
+                            "name": "Consulta d'EL"
+                        },
+                        {
+                            "name": "Desactivació d'EL"
+                        },
+                        {
+                            "name": "Eliminació d'EL"
+                        },
+                        {
+                            "name": "Consulta d'EL en data"
+                        },
+                        {
+                            "name": "Consulta canvis d'EL"
+                        },
+                        {
+                            "name": "Gestió de CC provisional d'un EP"
+                        },
+                        {
+                            "name": "Informes",
+                            "children": [
+                                {
+                                    "name": "Per identificador"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Demanda",
+            "children": [
+                {
+                    "name": "Inscripció demanda",
+                    "children": [
+                        {
+                            "name": "Consulta i inscripció bàsica"
+                        },
+                        {
+                            "name": "Inscripció altres serveis"
+                        },
+                        {
+                            "name": "Inscripción serveis previs"
+                        },
+                        {
+                            "name": "Inscripció completa"
+                        },
+                        {
+                            "name": "Completar demanda"
+                        }
+                    ]
+                },
+                {
+                    "name": "Modificar demanda",
+                    "children": [
+                        {
+                            "name": "Modificació demanda"
+                        },
+                        {
+                            "name": "Modificació demanda alumne"
+                        }
+                    ]
+                },
+                {
+                    "name": "Consultar demanda",
+                    "children": [
+                        {
+                            "name": "Consultar demanda per identificador"
+                        },
+                        {
+                            "name": "Consultar demanda per nom i cognoms"
+                        },
+                        {
+                            "name": "Consultar demanda alumne"
+                        },
+                        {
+                            "name": "Consultar estat demanda"
+                        },
+                        {
+                            "name": "Consultar historials demanda"
+                        },
+                        {
+                            "name": "Consultar prestacions",
+                            "children": [
+                                {
+                                    "name": "Consultar prestacions"
+                                },
+                                {
+                                    "name": "Consultar i anotar prestacions"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consultar relació oferta/demanda"
+                        },
+                        {
+                            "name": "Consultar Estadístiques de Col·lectius SISPE"
+                        },
+                        {
+                            "name": "Consultar dades contacte DMD protegida"
+                        },
+                        {
+                            "name": "Comprovar petjada del DARDO"
+                        },
+                        {
+                            "name": "Consultar ofertes per NIF/NIE"
+                        },
+                        {
+                            "name": "Consultar i anotar activitat económica"
+                        }
+                    ]
+                },
+                {
+                    "name": "Processos per telèfon 012"
+                },
+                {
+                    "name": "Renovació demanda",
+                    "children": [
+                        {
+                            "name": "Renovació directa de demanda per identificador"
+                        },
+                        {
+                            "name": "Renovació per telèfon 012"
+                        },
+                        {
+                            "name": "Renovació per Pas Únic"
+                        },
+                        {
+                            "name": "Renovació por identificador múltiple"
+                        },
+                        {
+                            "name": "Renovació de demanda a través d'una acció"
+                        },
+                        {
+                            "name": "Manteniment de paràmetres de renovació"
+                        },
+                        {
+                            "name": "Bloqueig renovació no presencial"
+                        },
+                        {
+                            "name": "Desbloqueig renovació no presencial"
+                        }
+                    ]
+                },
+                {
+                    "name": "Canvi  de situació administrativa",
+                    "children": [
+                        {
+                            "name": "Canvi individual de situació administrativa"
+                        },
+                        {
+                            "name": "Canvi de situació administrativa múltiple"
+                        },
+                        {
+                            "name": "Recuperació de període de baixa"
+                        },
+                        {
+                            "name": "Alta per represa de la prestació"
+                        }
+                    ]
+                },
+                {
+                    "name": "Informes",
+                    "children": [
+                        {
+                            "name": "Informes Q",
+                            "children": [
+                                {
+                                    "name": "Emetre informe de resultats Q"
+                                },
+                                {
+                                    "name": "Emetre informe tècnic de resultats Q"
+                                },
+                                {
+                                    "name": "Emetre informe persona usuària"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Emetre DARDO"
+                        },
+                        {
+                            "name": "Emetre paraula de pas (PIN)"
+                        },
+                        {
+                            "name": "Emetre informe general de situació"
+                        },
+                        {
+                            "name": "Emetre document d'acord personal d'ocupació "
+                        },
+                        {
+                            "name": "Emetre certificat DONO"
+                        },
+                        {
+                            "name": "Informe general de situació per 012"
+                        },
+                        {
+                            "name": "Emetre CV"
+                        },
+                        {
+                            "name": "Serveis"
+                        },
+                        {
+                            "name": "Serveis resumits"
+                        },
+                        {
+                            "name": "Perceptors que causen baixa por no renovació"
+                        },
+                        {
+                            "name": "Entitats amb calendari informat"
+                        },
+                        {
+                            "name": "Període inscripció de demandant"
+                        },
+                        {
+                            "name": "Període desocupació de demandant       "
+                        },
+                        {
+                            "name": "Demandes incompletes"
+                        },
+                        {
+                            "name": "Demandes inscrites en una EG"
+                        },
+                        {
+                            "name": "Demandes completades en una EG"
+                        },
+                        {
+                            "name": "Demandes amb modificacions curriculars"
+                        },
+                        {
+                            "name": "Situació administrativa"
+                        },
+                        {
+                            "name": "Situació laboral i administrativa"
+                        },
+                        {
+                            "name": "Document variació administrativa"
+                        },
+                        {
+                            "name": "Justificant compareixença en UAG"
+                        },
+                        {
+                            "name": "Inscripció i resposta a ofertes ocupacionals"
+                        },
+                        {
+                            "name": "Demandants no candidats"
+                        },
+                        {
+                            "name": "Historial arrencada"
+                        },
+                        {
+                            "name": "Informe fitxa participant operació FSE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Itineraris i Serveis",
+                    "children": [
+                        {
+                            "name": "Gestió d'itineraris"
+                        },
+                        {
+                            "name": "Gestió de serveis "
+                        },
+                        {
+                            "name": "Sol·licitud de servei"
+                        },
+                        {
+                            "name": "Oferiment de serveis"
+                        },
+                        {
+                            "name": "Registrar servei en curs"
+                        },
+                        {
+                            "name": "Registrar servei rebut"
+                        },
+                        {
+                            "name": "Modificar inici de serveis"
+                        },
+                        {
+                            "name": "Modificar tutor serveis"
+                        },
+                        {
+                            "name": "Enviament serveis-activitats Spe"
+                        },
+                        {
+                            "name": "Consulta històric enviament serveis-activitats Spe"
+                        },
+                        {
+                            "name": "Modificar dades de servei-itinerari/activitat"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trasllats",
+                    "children": [
+                        {
+                            "name": "Trasllat de demanda dins de la CA"
+                        },
+                        {
+                            "name": "Trasllat de demanda entre CA"
+                        },
+                        {
+                            "name": "Trasllat de Demanda en baixa per agrupació"
+                        },
+                        {
+                            "name": "Reasignació de demanda"
+                        }
+                    ]
+                },
+                {
+                    "name": "Registre de cites",
+                    "children": [
+                        {
+                            "name": "Registre cites per paràmetres"
+                        },
+                        {
+                            "name": "Registre directe de cites"
+                        },
+                        {
+                            "name": "Registre urgent de cites"
+                        },
+                        {
+                            "name": "Gestionar cita"
+                        },
+                        {
+                            "name": "Calendari entitat gestora"
+                        },
+                        {
+                            "name": "Calendari entrevistador"
+                        },
+                        {
+                            "name": "Consultar disponibilitat calendari EG"
+                        }
+                    ]
+                },
+                {
+                    "name": "Registre de cites per tutors",
+                    "children": [
+                        {
+                            "name": "Gestionar cita per tutors"
+                        }
+                    ]
+                },
+                {
+                    "name": "Borses de centre",
+                    "children": [
+                        {
+                            "name": "Gestió de borsa de centre"
+                        },
+                        {
+                            "name": "Control de borsa de centre"
+                        }
+                    ]
+                },
+                {
+                    "name": "Accions d'activació y/o control"
+                },
+                {
+                    "name": "Cancel·lació de demanda"
+                },
+                {
+                    "name": "Recerca parametritzada"
+                },
+                {
+                    "name": "Portal d'ocupació"
+                },
+                {
+                    "name": "Càlcul del col·lectiu Q",
+                    "children": [
+                        {
+                            "name": "Càlcul Q"
+                        },
+                        {
+                            "name": "Consulta Q"
+                        },
+                        {
+                            "name": "Consultar historial Q"
+                        },
+                        {
+                            "name": "Consulta rangs indicadors últim Q"
+                        }
+                    ]
+                },
+                {
+                    "name": "Modificar historials de situació administrativa",
+                    "children": [
+                        {
+                            "name": "Demanda prevalent abans d'agrupació"
+                        },
+                        {
+                            "name": "Demanda resultant de l'agrupació"
+                        }
+                    ]
+                },
+                {
+                    "name": "Indicadors FSE"
+                },
+                {
+                    "name": "Envia sancions al tramitador"
+                }
+            ]
+        },
+        {
+            "name": "Oferta",
+            "children": [
+                {
+                    "name": "Registre",
+                    "children": [
+                        {
+                            "name": "Alta ofertes"
+                        },
+                        {
+                            "name": "Completar oferta"
+                        },
+                        {
+                            "name": "Còpia d'ofertes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Modificacions",
+                    "children": [
+                        {
+                            "name": "Gestió de plantilles d'ofertes"
+                        },
+                        {
+                            "name": "Modificació d'oferta"
+                        },
+                        {
+                            "name": "Trasllat autonòmic"
+                        },
+                        {
+                            "name": "Derivar gestió al SAT"
+                        },
+                        {
+                            "name": "Sol·licitud de gestió compartida"
+                        },
+                        {
+                            "name": "Desbloqueig d'ofertes"
+                        },
+                        {
+                            "name": "Crear/Modificar oferta tauler"
+                        }
+                    ]
+                },
+                {
+                    "name": "Consultes",
+                    "children": [
+                        {
+                            "name": "Consulta d'ofertes"
+                        },
+                        {
+                            "name": "Consulta dades de difusió EURES"
+                        }
+                    ]
+                },
+                {
+                    "name": "Difusió",
+                    "children": [
+                        {
+                            "name": "Sol·licitud de difusió"
+                        },
+                        {
+                            "name": "Modificació de difusió"
+                        },
+                        {
+                            "name": "Gestió d'ofertes en difusió "
+                        }
+                    ]
+                },
+                {
+                    "name": "Canvis de situació ",
+                    "children": [
+                        {
+                            "name": "Conclusió manual"
+                        },
+                        {
+                            "name": "Conclusió manual por error"
+                        },
+                        {
+                            "name": "Baixa  manual"
+                        },
+                        {
+                            "name": "Modificació situació conclusió per cobertura"
+                        }
+                    ]
+                },
+                {
+                    "name": "Informes",
+                    "children": [
+                        {
+                            "name": "Oferta completa"
+                        },
+                        {
+                            "name": "Ofertes pendents de registre"
+                        },
+                        {
+                            "name": "Ofertes registrades sense gestió"
+                        },
+                        {
+                            "name": "Informe ofertes en difusió"
+                        },
+                        {
+                            "name": "Informe ofertes en curs"
+                        },
+                        {
+                            "name": "Informe candidats per oferta"
+                        },
+                        {
+                            "name": "Informe del tauler d'Ofertes"
+                        },
+                        {
+                            "name": "Informe resum tauler d'ofertes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Documents i cartes",
+                    "children": [
+                        {
+                            "name": "Document registre d'oferta"
+                        },
+                        {
+                            "name": "Relació final de candidats"
+                        },
+                        {
+                            "name": "Relació de candidats"
+                        },
+                        {
+                            "name": "Imprès document tauler d'oferta"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Intermediació",
+            "children": [
+                {
+                    "name": "Mecanismes de recerca",
+                    "children": [
+                        {
+                            "name": "Sol·licitud d'aparellament d'oferta"
+                        },
+                        {
+                            "name": "Sol·licitud de sondeig d'oferta"
+                        },
+                        {
+                            "name": "Sol·licitud de sondeig lliure"
+                        },
+                        {
+                            "name": "Consulta prèvia"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gestió de candidats",
+                    "children": [
+                        {
+                            "name": "Gestió general de candidats  "
+                        },
+                        {
+                            "name": "Gestió general de candidats per tutors"
+                        },
+                        {
+                            "name": "Confirmació de candidats de l'aparellament"
+                        },
+                        {
+                            "name": "Confirmació de candidats de l'aparellament per tutors"
+                        },
+                        {
+                            "name": "Conversió de candidats ponderats a convencionals"
+                        },
+                        {
+                            "name": "Conversió de candidats ponderats a convencionals per tutors "
+                        },
+                        {
+                            "name": "Conversió de candidats reserva a convencionals"
+                        },
+                        {
+                            "name": "Vinculació nominal de candidats"
+                        },
+                        {
+                            "name": "Vinculació nominal múltiple de candidats"
+                        },
+                        {
+                            "name": "Vinculació de candidats a una oferta en difusió"
+                        },
+                        {
+                            "name": "Vinculació a oferta de demandants de sondeig lliure"
+                        },
+                        {
+                            "name": "Vinculació a oferta de demandants de recerca parametritzada"
+                        },
+                        {
+                            "name": "Gestió resultat de selecció comunicat per empresa"
+                        },
+                        {
+                            "name": "Comprovació de disponibilitat i citació"
+                        },
+                        {
+                            "name": "Comprovació de disponibilitat i citació per al SAT"
+                        }
+                    ]
+                },
+                {
+                    "name": "Manteniments",
+                    "children": [
+                        {
+                            "name": "Paràmetres d'intermediació "
+                        },
+                        {
+                            "name": "Criteris de selecció ",
+                            "children": [
+                                {
+                                    "name": "Configuració general "
+                                },
+                                {
+                                    "name": "Tipus d'oferta"
+                                },
+                                {
+                                    "name": "Ponderació per oferta"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tipus d'ordenació i priorització",
+                            "children": [
+                                {
+                                    "name": "Configuració general "
+                                },
+                                {
+                                    "name": "Tipus d'oferta"
+                                },
+                                {
+                                    "name": "Oferta"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Col·lectius d'ordenació i priorització"
+                        },
+                        {
+                            "name": "Grups de disponibilitat"
+                        },
+                        {
+                            "name": "Comprovació de disponibilitat",
+                            "children": [
+                                {
+                                    "name": "Configuració general"
+                                },
+                                {
+                                    "name": "Tipus d'oferta"
+                                },
+                                {
+                                    "name": "Oferta"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Consultes",
+                    "children": [
+                        {
+                            "name": "Candidats per oferta"
+                        },
+                        {
+                            "name": "Relació oferta/demanda per a un demandant"
+                        },
+                        {
+                            "name": "Historial de recerca de candidats per oferta"
+                        },
+                        {
+                            "name": "Consultar dades contacte CAN protegit"
+                        },
+                        {
+                            "name": "Candidats per oferta protegit"
+                        },
+                        {
+                            "name": "Consulta de Candidats Protegits per Id de Demanda"
+                        }
+                    ]
+                },
+                {
+                    "name": "Documents i cartes",
+                    "children": [
+                        {
+                            "name": "Carta certificada a perceptors"
+                        },
+                        {
+                            "name": "Carta de disponibilitat negativa a perceptors"
+                        },
+                        {
+                            "name": "Carta de text lliure"
+                        },
+                        {
+                            "name": "Enviament automàtic carta certificada a perceptors"
+                        }
+                    ]
+                },
+                {
+                    "name": "Informes",
+                    "children": [
+                        {
+                            "name": "Currículums dels candidats disponibles d'una oferta"
+                        },
+                        {
+                            "name": "Currículums tramesos dels candidats d'una oferta"
+                        },
+                        {
+                            "name": "Informe de disponibilitats negatives de perceptors"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aparellament estatal ",
+                    "children": [
+                        {
+                            "name": "Sol·licitud de sondeig estatal"
+                        },
+                        {
+                            "name": "Sol·licitud de sondeig estatal obert"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Contractes",
+            "children": [
+                {
+                    "name": "Consulta "
+                },
+                {
+                    "name": "Cerca i càrrega per criteris"
+                }
+            ]
+        },
+        {
+            "name": "Administració",
+            "children": [
+                {
+                    "name": "Monitorizació processos Recerca"
+                },
+                {
+                    "name": "Parametrizació"
+                },
+                {
+                    "name": "Control accés",
+                    "children": [
+                        {
+                            "name": "Gestió de metainformació"
+                        },
+                        {
+                            "name": "Usuaris"
+                        },
+                        {
+                            "name": "Connexions d' usuaris"
+                        },
+                        {
+                            "name": "Consultes auditoria"
+                        },
+                        {
+                            "name": "Manteniment de Coordinadors Estatals"
+                        }
+                    ]
+                },
+                {
+                    "name": "Entitats jurídiques",
+                    "children": [
+                        {
+                            "name": "Registre d'EJ"
+                        }
+                    ]
+                },
+                {
+                    "name": "Entitats gestores",
+                    "children": [
+                        {
+                            "name": "Registre d'EEGG"
+                        },
+                        {
+                            "name": "Relació entitat/àmbit d'accés a valors"
+                        },
+                        {
+                            "name": "Zones geogràfiques d'EEGG"
+                        },
+                        {
+                            "name": "Vinculació jeràrquica entre EEGG"
+                        },
+                        {
+                            "name": "Calendari entitat gestora"
+                        },
+                        {
+                            "name": "Regeneració Calendari Entitats Gestores"
+                        },
+                        {
+                            "name": "Agrupació d'EEGG"
+                        },
+                        {
+                            "name": "Dades registre de cites"
+                        },
+                        {
+                            "name": "Vinculacions d'EEGG"
+                        },
+                        {
+                            "name": "Zones geogràfiques d'influència"
+                        },
+                        {
+                            "name": "Àmbits d'accés a valors"
+                        },
+                        {
+                            "name": "Informes sobre EEGG",
+                            "children": [
+                                {
+                                    "name": "Informe de control"
+                                },
+                                {
+                                    "name": "Informe de situació"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Registre d'EEGG amb col·lectiu protegit"
+                        },
+                        {
+                            "name": "Registre de relació EEGG amb col·lectiu protegit"
+                        }
+                    ]
+                },
+                {
+                    "name": "Borses de centre",
+                    "children": [
+                        {
+                            "name": "Registre de borses de centre"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gestió de Processos Automàtics"
+                },
+                {
+                    "name": "Informes",
+                    "children": [
+                        {
+                            "name": "Gestió"
+                        },
+                        {
+                            "name": "Configuració de plantilles"
+                        }
+                    ]
+                },
+                {
+                    "name": "Facturació",
+                    "children": [
+                        {
+                            "name": "Consulta de moviments"
+                        },
+                        {
+                            "name": "Llançar facturació"
+                        },
+                        {
+                            "name": "Manteniment de períodes"
+                        },
+                        {
+                            "name": "Informes",
+                            "children": [
+                                {
+                                    "name": "Informes per a centres"
+                                },
+                                {
+                                    "name": "Pagaments totals a fer per centre"
+                                },
+                                {
+                                    "name": "Resum relació accions"
+                                },
+                                {
+                                    "name": "Imports totals per centre "
+                                },
+                                {
+                                    "name": "Nota interior de remissió"
+                                },
+                                {
+                                    "name": "Proposta de pagament"
+                                },
+                                {
+                                    "name": "Ofici de remissió"
+                                },
+                                {
+                                    "name": "Accions de facturació"
+                                },
+                                {
+                                    "name": "Prefacturació"
+                                },
+                                {
+                                    "name": "Facturació anual per centre"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intervenció d'un període"
+                        }
+                    ]
+                },
+                {
+                    "name": "Manteniments",
+                    "children": [
+                        {
+                            "name": "Taules geogràfiques"
+                        },
+                        {
+                            "name": "Taules de valors"
+                        },
+                        {
+                            "name": "Períodes de renovació"
+                        },
+                        {
+                            "name": "Camps de difusió d'oferta"
+                        },
+                        {
+                            "name": "Manteniment d'interval de CV per lloc",
+                            "children": [
+                                {
+                                    "name": "Manteniment d'interval de CV per lloc general"
+                                },
+                                {
+                                    "name": "Manteniment d'interval de CV per lloc per tipus d'oferta"
+                                },
+                                {
+                                    "name": "Manteniment d'interval de CV per lloc per oferta"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Calendari de festius EEGG"
+                        },
+                        {
+                            "name": "Calendari de festius locals"
+                        },
+                        {
+                            "name": "Tancament temporal EEGG"
+                        },
+                        {
+                            "name": "Missatges i fitxers informatius"
+                        },
+                        {
+                            "name": "Configuració de facturació"
+                        },
+                        {
+                            "name": "Criteris de disponibilitat de candidats"
+                        },
+                        {
+                            "name": "Bancs i sucursals"
+                        },
+                        {
+                            "name": "Disponibilitats específiques"
+                        },
+                        {
+                            "name": "Tipus de comunicacions"
+                        },
+                        {
+                            "name": "Registre itineraris SICAS"
+                        },
+                        {
+                            "name": "Parametrització de serveis"
+                        },
+                        {
+                            "name": "Inversió de la causa de situació adminstrativa "
+                        },
+                        {
+                            "name": "Manteniment de col·lectius especials "
+                        },
+                        {
+                            "name": "Manteniment de les condicions especials"
+                        },
+                        {
+                            "name": "Parametrització difusió estatal i EURES"
+                        },
+                        {
+                            "name": "Fitxer d'especialitats"
+                        },
+                        {
+                            "name": "Taules específiques",
+                            "children": [
+                                {
+                                    "name": "Tipus EEGG"
+                                },
+                                {
+                                    "name": "Situació admin. demanda"
+                                },
+                                {
+                                    "name": "Períodes temps"
+                                },
+                                {
+                                    "name": "Nivells formatius"
+                                },
+                                {
+                                    "name": "Indicador de teletreball"
+                                },
+                                {
+                                    "name": "Grups principals"
+                                },
+                                {
+                                    "name": "Equivalències Titulacions    "
+                                },
+                                {
+                                    "name": "Autoritzacions Administratives"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fitxer d'especialitats"
+                        },
+                        {
+                            "name": "Consulta historial accions FE"
+                        },
+                        {
+                            "name": "Manteniment gravació servei abans servei"
+                        }
+                    ]
+                },
+                {
+                    "name": "Comunicacions",
+                    "children": [
+                        {
+                            "name": "Taules SISPE",
+                            "children": [
+                                {
+                                    "name": "Notificació canvis"
+                                },
+                                {
+                                    "name": "Sincron. taules"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Sincron. gen. SEPE_e",
+                            "children": [
+                                {
+                                    "name": "Comprov. i posada a nivell"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consultas Remotes",
+                            "children": [
+                                {
+                                    "name": "Consultar Demanda en Remot"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Traducció de Taules",
+                            "children": [
+                                {
+                                    "name": "Traducció de Taules"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Serveis d'historials de demanda",
+                            "children": [
+                                {
+                                    "name": "Serveis d'historials de Demanda"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Eines"
+                },
+                {
+                    "name": "Codis d'ocupació CNO antics"
+                },
+                {
+                    "name": "Equivalències codis d'ocupació CNO"
+                },
+                {
+                    "name": "Manteniment de bloquejos per servei"
+                },
+                {
+                    "name": "Intercanvi de dades amb Educació"
+                },
+                {
+                    "name": "Càrregues massives"
+                },
+                {
+                    "name": "Agències de Col·locació",
+                    "children": [
+                        {
+                            "name": "Gestió Relacions Demanda Conveni"
+                        },
+                        {
+                            "name": "Relacions Demanda Conveni Agències"
+                        },
+                        {
+                            "name": "Gestió Convenis"
+                        },
+                        {
+                            "name": "Cerca d'Agències de Col·locació"
+                        },
+                        {
+                            "name": "Consulta de Convenis per Criteris"
+                        },
+                        {
+                            "name": "Consulta de Convenis per Demanda"
+                        },
+                        {
+                            "name": "Assignar ETGs a centres de treball i convenis"
+                        },
+                        {
+                            "name": "Cartes i documents",
+                            "children": [
+                                {
+                                    "name": "Carta de text lliure a agències"
+                                },
+                                {
+                                    "name": "Carta de text lliure a les demandes amb conveni"
+                                },
+                                {
+                                    "name": "Informe consultar usuaris d'una agencia"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Consulta de CT, Conv. i Agèn. per usuari"
+                        },
+                        {
+                            "name": "Manteniment de la Relació Conveni-Servei-Acció"
+                        },
+                        {
+                            "name": "Gestió Convocatòries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Manteniment paràmetres Q"
+                },
+                {
+                    "name": "Manteniment de finestres"
+                }
+            ]
+        },
+        {
+            "name": "Ajuda",
+            "children": [
+                {
+                    "name": "Ajuda general"
+                },
+                {
+                    "name": "Títols"
+                }
+            ]
+        }
+    ]
+}

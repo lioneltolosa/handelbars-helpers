@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.block-container {
+  width: 80%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 15px;
+}
+
+.block-header {
+  height: 30px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.block-content {
+  padding-top: 15px;
+}
+
+.task-row {
+  height: 10px;
+  padding: 15px 0;
+}
+
+</style>
+
+<head>
+    <title>Hello Helpers</title>
+    <script src="handlebars-v4.0.11.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+
+    <script id="some-template" type="text/x-handlebars-template">
+                {{#each tasks}}
+                    <li>{{name}}</li>
+                {{/each}}
+    </script>
+
+    <div id="content-placeholder"></div>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        
+        var source = $("#some-template").html();
+        var template = Handlebars.compile(source);
+
+        var data = {
+            tasks: [
+            {
+                "name": "Alta de PF"
+            },
+            {
+                "name": "Alta restrictiva de PF"
+            },
+            {
+                "name": "Modificació de PF"
+            },
+            {
+                "name": "Modificació restrictiva de PF"
+            },
+            {
+                "name": "Consulta de PF"
+            },
+            {
+                "name": "Consulta de Duplicats de PF"
+            },
+            {
+                "name": "Consulta de PF per Nom i Cognoms"
+            },
+            {
+                "name": "Desactivació de PF"
+            },
+            {
+                "name": "Canvi d'identificador de PF"
+            },
+            {
+                "name": "Agrupació de PF"
+            },
+            {
+                "name": "Consulta d'Estat d'Agrupació de PF"
+            },
+            {
+                "name": "Consultar Historials Agrupació de PF"
+            },
+            {
+                "name": "Anul·lar Agrupació de PF"
+            },
+            {
+                "name": "Modificar Agrupació de PF No Anul·lable"
+            },
+            {
+                "name": "Consultar Identificador Actual de PF des de Data"
+            },
+            {
+                "name": "Consultar Tauler d'Identificadors Desestimats"
+            },
+            {
+                "name": "Eliminació de PF"
+            },
+            {
+                "name": "Historial de Canvis d'Id"
+            },
+            {
+                "name": "PF relacionades amb un ID"
+            },
+            {
+                "name": "Informes",
+                "children": [
+                    {
+                        "name": "Per identificador"
+                    },
+                    {
+                        "name": "Per nom i cognoms"
+                    }
+                ]
+            },
+            {
+                "name": "Consulta de PF protegida"
+            },
+            {
+                "name": "Consulta d'Historials protegits"
+            },
+            {
+                "name": "Consulta de PF de col·lectius protegits"
+            },
+            {
+                "name": "Pla Garantia Juvenil",
+                "children": [
+                    {
+                        "name": "Discrepàncies Garantia Juvenil"
+                    },
+                    {
+                        "name": "Sincronització Garantia Juvenil"
+                    }
+                ]
+            },
+            {
+                "name": "Consulta indicadors històrics de PFS i DEM en data"
+            },
+            {
+                "name": "Consulta IPF antic en data"
+            }
+            ]
+        };
+
+
+        $("#content-placeholder").html(template(data));
+
+
+    </script>
+
+</body>
+
+</html>

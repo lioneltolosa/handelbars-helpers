@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Handlebars</title>
+
+    <script src="handlebars-v4.0.11.js"></script>
+    
+    <script id="quote-template" type="text/x-handlebars-template">
+
+
+    {{#list people}}
+        {{firstName}} 
+        {{lastName}}
+    {{/list}}
+    
+
+    </script> 
+    
+    </head>
+    
+    <body>
+
+    <div id="quoteData"></div>
+    
+    <script type="text/javascript">
+
+    var quoteInfo = document.getElementById("quote-template").innerHTML;
+
+    var template = Handlebars.compile(quoteInfo);
+
+
+
+    Handlebars.registerHelper('list', function(items, options) {
+    var out = "<ul>";
+
+    for(var i=0, l=items.length; i<l; i++) {
+        out = out + "<li>" + options.fn(items[i]) + "</li>";
+    }
+
+    return out + "</ul>";
+    });
+
+
+
+
+        var quoteData = template({
+        name: "Yogi Berra",
+            
+            people: [
+                {firstName: "Yehuda", lastName: "Katz"},
+                {firstName: "Carl", lastName: "Lerche"},
+                {firstName: "Alan", lastName: "Johnson"},
+                {firstName: "Yehuda", lastName: "Katz"},
+                {firstName: "Carl", lastName: "Lerche"},
+                {firstName: "Alan", lastName: "Johnson"},
+                {firstName: "Yehuda", lastName: "Katz"},
+                {firstName: "Carl", lastName: "Lerche"},
+                {firstName: "Alan", lastName: "Johnson"},
+                {firstName: "Yehuda", lastName: "Katz"},
+                {firstName: "Carl", lastName: "Lerche"},
+                {firstName: "Alan", lastName: "Johnson"}
+            ],
+           
+            });
+
+   
+
+        
+
+        
+        document.getElementById('quoteData').innerHTML += quoteData;
+
+
+
+
+
+    </script>
+    
+    </body>
+</html>

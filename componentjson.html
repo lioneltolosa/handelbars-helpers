@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Handlebars</title>
+  <script src="handlebars-v4.0.11.js"></script>
+  <script src="jquery-3.2.1.min.js"></script>
+ 
+    
+  </head>
+  <body>
+      <ul class="character-list-container"></ul>
+
+      <script id="character-template" type="text/x-handlebars-template">
+        {{#each characters}}
+            <li class="characters">
+                <h2>{{name}}</h2>
+            </li>
+        {{/each}}
+      </script> 
+   
+
+  <script type="text/javascript">
+
+
+$(document).ready(function() {
+    var characterTemplate = $("#character-template").html();
+
+    var compiledCharacterTemplate = Handlebars.compile(characterTemplate);
+
+    $.ajax("./sicas-menu.json").done(function(cast) {
+        $(".character-list-container").html(compiledCharacterTemplate(cast));
+        });
+    });
+
+  </script>
+    
+  </body>
+</html>
